@@ -2,7 +2,7 @@ import { pageProperties } from './pageProps'
 import { callFileSystem } from '../../helpers/fileSystem'
 
 export const generatePage = (props: pageProperties) => {
-  const path = './src/generated/index.html'
+  const path = 'generated/index.html'
 
   callFileSystem(
     path,

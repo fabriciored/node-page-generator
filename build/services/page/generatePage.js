@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.generatePage = void 0;
 const fileSystem_1 = require("../../helpers/fileSystem");
 const generatePage = (props) => {
-    const path = './src/generated/index.html';
+    const path = 'generated/index.html';
     (0, fileSystem_1.callFileSystem)(path, `
   <!DOCTYPE html>
         <html lang="en">
