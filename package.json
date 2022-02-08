@@ -4,7 +4,8 @@
   "description": "\"Node web page generator project for learning purpose.\"",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon",
+    "start": "node src/index",
+    "dev": "nodemon",
     "build": "tsc",
     "test": "jest"
   },
