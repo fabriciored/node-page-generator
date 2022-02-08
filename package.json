@@ -7,7 +7,8 @@
     "start": "npm run build && node build/index.js",
     "dev": "nodemon",
     "build": "tsc",
-    "test": "jest"
+    "test": "jest",
+    "tsc" : "tsc"
   },
   "husky": {
     "hooks": {
