@@ -3,6 +3,6 @@ interface Resp {
 }
 
 export const downloadPage = (response: Resp) => {
-  const file = 'src/generated/index.html'
+  const file = 'index.html'
   response.download(file)
 }
