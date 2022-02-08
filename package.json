@@ -10,9 +10,9 @@
   },
   "husky": {
     "hooks": {
-        "pre-commit": "pretty-quick --staged"
+      "pre-commit": "pretty-quick --staged"
     }
-},
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fabriciored/page-generator.git"
