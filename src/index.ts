@@ -7,5 +7,6 @@ app.get('/', (request: Request, response: Response) => {
   response.send(200)
 })
 
+
 app.listen(port)
 console.log(`Server runs on port ${port}`)
