@@ -1,9 +1,10 @@
 import express, { Application, Request, Response } from 'express'
 
 import { generatePage } from './services/page/generatePage'
+import { downloadPage } from './services/page/downloadPage'
 
 const app: Application = express()
-const port = 3000
+const port = process.env.PORT || 3000
 const router = express.Router()
 
 app.use(express.json({
@@ -11,10 +12,14 @@ app.use(express.json({
 }))
 
 app.get('/', (request: Request, response: Response) => {
-  response.send(200)
+  response.sendStatus(200)
 })
 
-router.post('/generate', function (request: Request, response: Response) {
+app.get('/download', (request: Request, response: Response) => {
+  downloadPage(response)
+})
+
+router.post('/generate', function (request: Request, response: Response, fs) {
   const values = Object.values(request.body)
   generatePage(request.body)
   console.log('created with values: ', values)
