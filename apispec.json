@@ -1,0 +1,23 @@
+{
+  "navbar": {
+    "backgroundColor": "",
+    "height": 0,
+    "hasLogo": true,
+    "logoUrl": "",
+    "hasHeading": true,
+    "headingText": "",
+    "hasCtaButton": true,
+    "ctaButtonText": ""
+  },
+  "section": {
+    "backgroundColor": "",
+    "hasHeading": true,
+    "headingText": "",
+    "hasParagraph": true,
+    "paragraphText": ""
+  },
+  "backgroundColor": "white",
+  "fontColor": "black",
+  "title": "TESTANDO",
+  "logoUrl": ""
+}

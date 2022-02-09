@@ -35,18 +35,14 @@ export const generatePage = (props: pageProperties) => {
                     margin: 0;
                     padding: 0;
                 }
-        
                 body {
                     margin: 0;
                     padding: 0;
-                    background-color: var(--background-color, title, logoUrl, cardContent);
-                    
+                    background-color: var(--background-color, title, logoUrl, cardContent);             
                 }
-    
                 .navbar {
                     background-color: var(--navbar-color, title, logoUrl, cardContent) !important;                
                 }
-    
             </style>
     
     <nav class="navbar navbar-light navbar-bg">
@@ -56,20 +52,10 @@ export const generatePage = (props: pageProperties) => {
             <h1>${props.title}</h1>
           </a>
         </div>
-      </nav>
-          
+      </nav>     
       <div class="main container d-flex justify-content-center ">
     
-      </div>
-    
-      <main>
-    
-          </div>
-    
-    
-      </main>
-    
-            
+      </div>       
         </body>
         </html>
   `
