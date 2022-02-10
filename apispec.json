@@ -4,6 +4,8 @@
     "backgroundColor": "",
     "hasLogo": true,
     "logoUrl": "",
+    "logoWidth": 0,
+		"logoHeight": 0,
     "hasHeading": true,
     "headingText": "",
     "hasCtaButton": true,

@@ -4,6 +4,8 @@ export interface pageProperties {
         backgroundColor: string
         hasLogo: boolean,
         logoUrl: string,
+        logoWidth: string,
+        logoHeight: string,
         hasHeading: boolean,
         headingText: string,
         hasCtaButton: boolean,

@@ -1,12 +1,7 @@
 import { pageProperties } from './pageProps'
-import { callFileSystem } from '../../helpers/fileSystem'
 
-export const generatePage = (props: pageProperties) => {
-  const path = 'index.html'
-
-  callFileSystem(
-    path,
-    `
+export const recievePageProps = (props: pageProperties) => {
+  return `
   <!DOCTYPE html>
         <html lang="en">
         <head>
@@ -55,7 +50,7 @@ export const generatePage = (props: pageProperties) => {
     <nav class="navbar navbar-light navbar-bg">
         <div class="container">
           <a class="navbar-brand" href="#">
-            <img src="${props.navbar.logoUrl}" alt="" width="80" height="44">
+            <img src="${props.navbar.logoUrl}" alt="" width="${props.navbar.logoWidth}px" height="${props.navbar.logoHeight}">
             <h1>${props.navbar.headingText}</h1>
           </a>
         </div>
@@ -67,5 +62,4 @@ export const generatePage = (props: pageProperties) => {
         </body>
         </html>
   `
-  )
 }
