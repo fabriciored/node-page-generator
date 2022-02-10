@@ -1,7 +1,7 @@
 {
   "navbar": {
-    "backgroundColor": "",
     "height": 0,
+    "backgroundColor": "",
     "hasLogo": true,
     "logoUrl": "",
     "hasHeading": true,
@@ -16,8 +16,8 @@
     "hasParagraph": true,
     "paragraphText": ""
   },
-  "backgroundColor": "white",
-  "fontColor": "black",
-  "title": "TESTANDO",
-  "logoUrl": ""
+  "backgroundColor": "",
+  "fontColor": "",
+  "title": "",
+  "iconUrl": ""
 }
