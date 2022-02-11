@@ -6,7 +6,7 @@ import { generateHtmlString } from './services/page/generateHtmlString'
 const app: Application = express()
 const port = process.env.PORT || 3000
 const router = express.Router()
-let html = ''
+let html: string
 
 app.use(
   express.json({
