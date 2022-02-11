@@ -22,7 +22,6 @@ router.post('/pageinfo', function (request: Request, response: Response, fs) {
   const values = Object.values(request.body)
   html = generateHtmlString(request.body)
   console.log('created with values: ', values)
-  response.sendStatus(200)
   response.send(`
   Page created with properties: ${values}
   `)
