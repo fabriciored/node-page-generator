@@ -1,8 +1,7 @@
 import { pageProperties } from './pageProps'
 
-export const recievePageProps = (props: pageProperties) => {
-  return `
-  <!DOCTYPE html>
+export const generateHtmlString = (props: pageProperties) => {
+  return `<!DOCTYPE html>
         <html lang="en">
         <head>
             <meta charset="UTF-8">
@@ -46,7 +45,6 @@ export const recievePageProps = (props: pageProperties) => {
                     background-color: var(--section-background-color)
                 }
             </style>
-    
     <nav class="navbar navbar-light navbar-bg">
         <div class="container">
           <a class="navbar-brand" href="#">
@@ -60,6 +58,5 @@ export const recievePageProps = (props: pageProperties) => {
       <p>${props.section.paragraphText}</p>
       </div>       
         </body>
-        </html>
-  `
+        </html>`
 }
