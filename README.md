@@ -1,6 +1,6 @@
 # Node.js HTML Page Generator API
 
-<img src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.svg">>
+<img src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.svg" width="100px">
 
 This project is an custom HTML Page generator API built with Node.js and Express using Typescript;
 
