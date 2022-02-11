@@ -23,6 +23,9 @@ router.post('/pageinfo', function (request: Request, response: Response, fs) {
   html = generateHtmlString(request.body)
   console.log('created with values: ', values)
   response.sendStatus(200)
+  response.send(`
+  Page created with properties: ${values}
+  `)
 })
 
 app.get('/download', (request: Request, response: Response) => {
