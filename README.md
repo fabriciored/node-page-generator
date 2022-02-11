@@ -14,7 +14,7 @@ Run `npm run dev` to run nodemon.
 
 *or*
 
-Run `npm run build` to build and run the project.
+Run `npm run build` to build and then `node build/index.js` run the project.
 
 Send the page properties in a JSON HTTP post request to `/pageinfo` following the spec:
 `
