@@ -1,10 +1,19 @@
 # Node.js HTML Page Generator API
 
-![GitHub repo size](https://img.shields.io/github/repo-size/iuricode/README-template?style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/iuricode/README-template?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/iuricode/README-template?style=for-the-badge)
-
 This project is an custom HTML Page generator API built with Node.js and Express using Typescript;
+
+### Installation
+
+Run `npm install` to install project dependencies.
+
+### Using
+
+Run `npm run dev` to run nodemon.
+
+*or*
+
+Run `npm run build` to build and run the project.
+
 ### Roadmap
 
 The project currently aims the following milestones:
